@@ -4,42 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetos Sociais - ONG Ações Solidárias</title>
+    <meta name="description" content="Conheça os projetos sociais da ONG Ações Solidárias e veja como estamos mudando vidas.">
+    <meta name="keywords" content="projetos sociais, galeria, vídeos, educação, alimentação, saúde, voluntariado">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 </head>
 <body>
     <header>
-        <h1>Projetos Sociais</h1>
+        <h1>Gestão de Projetos</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Página Inicial</a></li>
-                <li><a href="projetos.html">Projetos Sociais</a></li>
-                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="cadastro.html">Cadastro e Doações</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h2>Nossos Projetos</h2>
+        <!-- Categorização -->
+        <section id="categorias">
+            <h2>Categorias de Projetos</h2>
+            <ul>
+                <li>Educação</li>
+                <li>Saúde</li>
+                <li>Meio Ambiente</li>
+                <li>Alimentação</li>
+            </ul>
+        </section>
 
+        <!-- Galeria -->
+        <section id="galeria">
+            <h2>Galeria de Fotos e Vídeos</h2>
+            <img src="img/projeto1.jpg" alt="Entrega de alimentos" width="300">
+            <img src="img/projeto2.jpg" alt="Aula de reforço escolar" width="300">
+            <video width="400" controls>
+                <source src="videos/acao.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos.
+            </video>
+        </section>
+
+        <!-- Cadastro de Projetos -->
+        <section id="cadastro-projetos">
+            <h2>Cadastro Detalhado de Projetos</h2>
             <article>
                 <h3>Projeto Alimenta Esperança</h3>
-                <p>
-                    Distribuição de cestas básicas e refeições para famílias em situação de vulnerabilidade social.
-                </p>
+                <p>Distribui cestas básicas mensalmente para famílias carentes.</p>
             </article>
-
             <article>
                 <h3>Educação para o Futuro</h3>
-                <p>
-                    Oferece aulas de reforço e cursos profissionalizantes gratuitos para jovens e adultos.
-                </p>
-            </article>
-
-            <article>
-                <h3>Saúde Solidária</h3>
-                <p>
-                    Ações de prevenção e atendimento médico voluntário em comunidades carentes.
-                </p>
+                <p>Oferece cursos profissionalizantes e reforço escolar gratuito.</p>
             </article>
         </section>
     </main>
@@ -49,3 +62,4 @@
     </footer>
 </body>
 </html>
+
