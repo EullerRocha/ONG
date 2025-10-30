@@ -2,6 +2,9 @@
 
 Plataforma web desenvolvida com o objetivo de oferecer às ONGs uma presença digital profissional e funcional, permitindo divulgar informações institucionais, gerenciar projetos sociais e engajar voluntários.
 
+![Gravando 2025-10-29 221127](https://github.com/user-attachments/assets/2b2410ff-b42e-4737-b34c-4d70376dacd6)
+
+
 ---
 
 ## 📌 Sobre o Projeto
